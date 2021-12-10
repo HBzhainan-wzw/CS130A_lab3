@@ -1,6 +1,6 @@
-all: project3.out
+all: project3
 
-project1b.out: project3.cpp Graph.cpp GraphGen.cpp 
+project3: project3.cpp Graph.cpp GraphGen.cpp 
 	g++ -std=c++11 $^ -o $@
 
 clean:
